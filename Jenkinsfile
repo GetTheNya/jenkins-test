@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Run') {
             steps {
-                sh 'gradlew bootRun'
+                sh './gradlew bootRun'
             }
         }
     }
